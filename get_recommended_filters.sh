@@ -12,8 +12,11 @@ urls=(
   https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt
   https://adaway.org/hosts.txt
   https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
-  # https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
+
   https://abpvn.com/filter/abpvn-o2A7ia.txt?ublock
+  https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+  https://raw.githubusercontent.com/hagezi/dns-blocklists/main/domains/light.txt
+  https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 )
 
 # loop through the urls and download each file with curl
