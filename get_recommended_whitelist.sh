@@ -8,15 +8,15 @@ touch whitelist.csv
 # declare an array of urls
 urls=(
     https://raw.githubusercontent.com/nextdns/click-tracking-domains/main/domains
-    
+
     https://raw.githubusercontent.com/im-sm/Pi-hole-Torrent-Blocklist/main/all-torrent-trackres.txt
     https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/banks.txt
     https://raw.githubusercontent.com/hagezi/dns-blocklists/main/whitelist.txt
     https://raw.githubusercontent.com/TogoFire-Home/AD-Settings/main/Filters/whitelist.txt
     https://raw.githubusercontent.com/freekers/whitelist/master/domains/whitelist.txt
     https://raw.githubusercontent.com/DandelionSprout/AdGuard-Home-Whitelist/master/whitelist.txt
-    # # Commented out because it looks suspicious
-    https://www.aadvantageeshopping.com/adBlockWhitelist.php
+    # Commented out because it looks suspicious
+    # https://www.aadvantageeshopping.com/adBlockWhitelist.php
     https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exclusions.txt
     https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/optional-list.txt
     https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/issues.txt
@@ -32,8 +32,9 @@ urls=(
     https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/sensitive.txt
     https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
     https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/firefox.txt
-    # # Commented out because it whitelists sites including doubleclick.net and ad.atdmt.com
-    https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
+    # Commented out because it whitelists sites including doubleclick.net and ad.atdmt.com
+    # https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/referral-sites.txt
+
 )
 
 # loop through the urls and download each file with curl
